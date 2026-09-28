@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KUBI | Build The Future</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     ENCABEZADO
+===================================================== -->
+
+<header>
+
+    <div class="logo">
+
+        KUBI
+
+        <span>
+            BUILD THE FUTURE
+        </span>
+
+    </div>
+
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#catalogo">Catálogo</a>
+
+        <a href="#galeria">Galería</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================================
+     INICIO / INFORMACIÓN PRINCIPAL DE KUBI
+===================================================== -->
+
+<section id="inicio" class="inicio">
+
+
+    <div class="inicio-texto">
+
+        <p class="etiqueta">
+            KUBI SYSTEM // 001
+        </p>
+
+
+        <h1>
+
+            CONSTRUYE.<br>
+
+            CONECTA.<br>
+
+            <span>IMAGINA.</span>
+
+        </h1>
+
+
+        <h2>
+            ¿QUÉ ES KUBI?
+        </h2>
+
+
+        <p class="descripcion-principal">
+
+            KUBI es un sistema de construcción modular creado
+            para que las personas puedan imaginar, construir
+            y transformar sus propias ideas.
+
+        </p>
+
+
+        <p class="descripcion-principal">
+
+            Nuestro concepto combina piezas geométricas,
+            diferentes formas, colores y sistemas de conexión
+            para crear figuras, vehículos, robots, estructuras
+            y muchas otras construcciones.
+
+        </p>
+
+
+        <a href="#catalogo" class="boton">
+
+            VER CATÁLOGO
+
+        </a>
+
+    </div>
+
+
+
+    <div class="inicio-info">
+
+
+        <div class="info-principal">
+
+            <span>01</span>
+
+            <h3>
+                ¿QUÉ OFRECEMOS?
+            </h3>
+
+            <p>
+                Sistemas de construcción, piezas,
+                accesorios y diferentes diseños
+                para crear construcciones personalizadas.
+            </p>
+
+        </div>
+
+
+        <div class="info-principal">
+
+            <span>02</span>
+
+            <h3>
+                ¿CÓMO FUNCIONA?
+            </h3>
+
+            <p>
+                Elige tus piezas, conéctalas y crea.
+                Puedes desmontarlas y construir
+                algo completamente diferente.
+            </p>
+
+        </div>
+
+
+        <div class="info-principal">
+
+            <span>03</span>
+
+            <h3>
+                ¿QUÉ PUEDES CREAR?
+            </h3>
+
+            <p>
+                Figuras, vehículos, robots, ciudades,
+                estructuras y diseños propios.
+            </p>
+
+        </div>
+
+
+        <div class="info-principal">
+
+            <span>04</span>
+
+            <h3>
+                NUESTRA IDEA
+            </h3>
+
+            <p>
+                Convertir cada pieza en una oportunidad
+                para crear algo nuevo.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     VIDEO
+===================================================== -->
+
+<section class="video-kubi">
+
+
+    <p class="etiqueta">
+        KUBI SYSTEM // 002
+    </p>
+
+
+    <h2>
+        DESCUBRE KUBI
+    </h2>
+
+
+    <p class="subtitulo-video">
+        El futuro de la construcción comienza aquí.
+    </p>
+
+
+    <div class="video-contenedor">
+
+        <video
+            autoplay
+            muted
+            loop
+            playsinline
+            controls
+        >
+
+            <source
+                src="video/kubi.mp4.mp4"
+                type="video/mp4"
+            >
+
+            Tu navegador no puede reproducir este video.
+
+        </video>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     CATALOGO
+===================================================== -->
+
+<section id="catalogo" class="catalogo">
+
+
+    <p class="etiqueta">
+        KUBI SYSTEM // 003
+    </p>
+
+
+    <h2>
+        CATÁLOGO KUBI
+    </h2>
+
+
+    <p class="descripcion-seccion">
+
+        Explora nuestros sistemas, piezas y accesorios.
+
+    </p>
+
+
+
+    <div class="carrusel">
+
+
+        <button
+            class="flecha"
+            onclick="productoAnterior()"
+        >
+
+            ‹
+
+        </button>
+
+
+
+        <div class="producto-carrusel">
+
+
+            <div class="producto-imagen">
+
+                <img
+                    id="imagenProducto"
+                    src="imagenes/kubi5.jpg.png"
+                    alt="KUBI STARTER"
+                >
+
+            </div>
+
+
+
+            <div class="producto-informacion">
+
+
+                <p
+                    id="codigoProducto"
+                    class="codigo-producto"
+                >
+                    SYSTEM 01
+                </p>
+
+
+                <h3 id="nombreProducto">
+                    KUBI STARTER
+                </h3>
+
+
+                <p
+                    id="precioProducto"
+                    class="precio-producto"
+                >
+                    Q45
+                </p>
+
+
+                <p
+                    id="descripcionProducto"
+                    class="descripcion-producto"
+                >
+                    El punto de partida para comenzar a construir.
+                </p>
+
+
+                <button
+                    class="boton"
+                    onclick="explorarProducto()"
+                >
+
+                    EXPLORAR
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <button
+            class="flecha"
+            onclick="productoSiguiente()"
+        >
+
+            ›
+
+        </button>
+
+
+    </div>
+
+
+
+    <div class="numero-producto">
+        PRODUCT 01 / 30
+    </div>
+
+
+    <div
+        class="indicadores"
+        id="indicadores"
+    ></div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     GALERIA
+===================================================== -->
+
+<section id="galeria" class="galeria">
+
+
+    <p class="etiqueta">
+        KUBI SYSTEM // 004
+    </p>
+
+
+    <h2>
+        GALERÍA
+    </h2>
+
+
+    <p class="descripcion-seccion">
+        Algunas ideas y diseños de KUBI.
+    </p>
+
+
+    <div class="galeria-grid">
+
+
+        <div class="galeria-item">
+
+            <img
+                src="imagenes/kubi5.jpg.png"
+                alt="KUBI Starter"
+            >
+
+        </div>
+
+
+        <div class="galeria-item">
+
+            <img
+                src="imagenes/kubi15.jpeg"
+                alt="KUBI Advanced"
+            >
+
+        </div>
+
+
+        <div class="galeria-item">
+
+            <img
+                src="imagenes/kubi6.jpg.png"
+                alt="KUBI Creator"
+            >
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACTO
+===================================================== -->
+
+<section id="contacto" class="contacto">
+
+
+    <p class="etiqueta">
+        KUBI SYSTEM // 005
+    </p>
+
+
+    <h2>
+        CONTACTO
+    </h2>
+
+
+    <p>
+        ¿Quieres conocer más sobre KUBI?
+    </p>
+
+
+    <form>
+
+
+        <input
+            type="text"
+            placeholder="Nombre"
+            required
+        >
+
+
+        <input
+            type="email"
+            placeholder="Correo electrónico"
+            required
+        >
+
+
+        <textarea
+            rows="5"
+            placeholder="Escribe tu mensaje"
+            required
+        ></textarea>
+
+
+        <button
+            type="submit"
+            class="boton"
+        >
+
+            ENVIAR MENSAJE
+
+        </button>
+
+
+    </form>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+
+    <div class="logo">
+
+        KUBI
+
+        <span>
+            BUILD THE FUTURE
+        </span>
+
+    </div>
+
+
+    <p>
+        Instagram: @kubi_form.play
+    </p>
+
+
+    <p>
+        © 2026 KUBI — Proyecto escolar
+    </p>
+
+
+</footer>
+
+
+
+<!-- =====================================================
+     MODAL EXPLORAR
+===================================================== -->
+
+<div
+    id="explorador"
+    class="modal"
+>
+
+
+    <div class="modal-contenido">
+
+
+        <button
+            class="cerrar"
+            onclick="cerrarExplorador()"
+        >
+
+            ×
+
+        </button>
+
+
+        <p class="etiqueta">
+            KUBI PRODUCT DATA
+        </p>
+
+
+        <h2 id="modalNombre">
+            KUBI STARTER
+        </h2>
+
+
+        <p
+            id="modalPrecio"
+            class="precio-producto"
+        >
+            Q45
+        </p>
+
+
+        <div class="datos-producto">
+
+
+            <div>
+
+                <span>
+                    FORMAS
+                </span>
+
+                <strong id="modalFormas">
+                    Triángulos y bloques
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    COLORES
+                </span>
+
+                <strong id="modalColores">
+                    Azul, gris y negro
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    PIEZAS
+                </span>
+
+                <strong id="modalPiezas">
+                    25 piezas
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    FIGURAS
+                </span>
+
+                <strong id="modalFiguras">
+                    5 modelos
+                </strong>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+
+const productos = [
+
+    {
+        nombre: "KUBI STARTER",
+        codigo: "SYSTEM 01",
+        precio: "Q45",
+        imagen: "imagenes/kubi5.jpg.png",
+        descripcion: "El punto de partida para comenzar a construir.",
+        formas: "Triángulos y bloques",
+        colores: "Azul, gris y negro",
+        piezas: "25 piezas",
+        figuras: "5 modelos"
+    },
+
+    {
+        nombre: "KUBI ADVANCED",
+        codigo: "SYSTEM 02",
+        precio: "Q85",
+        imagen: "imagenes/kubi6.jpg.png",
+        descripcion: "Más piezas para construcciones más complejas.",
+        formas: "Geométricas",
+        colores: "Azul y gris",
+        piezas: "50 piezas",
+        figuras: "10 modelos"
+    },
+
+    {
+        nombre: "KUBI CREATOR",
+        codigo: "SYSTEM 03",
+        precio: "Q125",
+        imagen: "imagenes/kubi7.jpg.png",
+        descripcion: "El sistema para creadores que quieren ir más lejos.",
+        formas: "Modulares",
+        colores: "Multicolor",
+        piezas: "80 piezas",
+        figuras: "15 modelos"
+    },
+
+    {
+        nombre: "PACK DE STICKERS",
+        codigo: "ACCESSORY 01",
+        precio: "Q15",
+        imagen: "imagenes/stickers.png.jpg",
+        descripcion: "Personaliza tus construcciones KUBI.",
+        formas: "Decorativas",
+        colores: "Variados",
+        piezas: "20 stickers",
+        figuras: "10 diseños"
+    },
+
+    {
+        nombre: "KUBI TRIANGLES",
+        codigo: "SYSTEM 04",
+        precio: "Q30",
+        imagen: "imagenes/kubi7.jpg.png",
+        descripcion: "Sistema especializado en piezas triangulares.",
+        formas: "Triángulos",
+        colores: "Azul y negro",
+        piezas: "30 piezas",
+        figuras: "6 modelos"
+    },
+
+    {
+        nombre: "KUBI CONNECT",
+        codigo: "SYSTEM 05",
+        precio: "Q35",
+        imagen: "imagenes/kubi8.jpeg",
+        descripcion: "Conectores especiales para estructuras avanzadas.",
+        formas: "Conectores",
+        colores: "Gris y azul",
+        piezas: "35 piezas",
+        figuras: "8 modelos"
+    },
+
+    {
+        nombre: "KUBI COLOR PACK",
+        codigo: "COLOR PACK 01",
+        precio: "Q25",
+        imagen: "imagenes/kubi9.jpeg",
+        descripcion: "Amplía tu colección con nuevos colores.",
+        formas: "Variadas",
+        colores: "Multicolor",
+        piezas: "30 piezas",
+        figuras: "7 modelos"
+    },
+
+    {
+        nombre: "KUBI SHAPES",
+        codigo: "SHAPES 01",
+        precio: "Q40",
+        imagen: "imagenes/kubi10.jpeg",
+        descripcion: "Nuevas formas geométricas para crear.",
+        formas: "Geométricas",
+        colores: "Azul y gris",
+        piezas: "40 piezas",
+        figuras: "9 modelos"
+    },
+
+    {
+        nombre: "KUBI MINI BUILDER",
+        codigo: "MINI SYSTEM 01",
+        precio: "Q55",
+        imagen: "imagenes/kubi11.jpeg",
+        descripcion: "Un sistema compacto para construir donde quieras.",
+        formas: "Modulares",
+        colores: "Azul y gris",
+        piezas: "45 piezas",
+        figuras: "10 modelos"
+    },
+
+    {
+        nombre: "KUBI MEGA CREATOR",
+        codigo: "SYSTEM 06",
+        precio: "Q160",
+        imagen: "imagenes/kubi12.jpeg",
+        descripcion: "Un sistema completo para grandes construcciones.",
+        formas: "Variadas",
+        colores: "Multicolor",
+        piezas: "120 piezas",
+        figuras: "20 modelos"
+    },
+
+    {
+        nombre: "KUBI ROBOT X",
+        codigo: "SYSTEM 07",
+        precio: "Q95",
+        imagen: "imagenes/kubi13.jpeg",
+        descripcion: "Construye tu propio robot KUBI.",
+        formas: "Robóticas",
+        colores: "Gris y azul",
+        piezas: "70 piezas",
+        figuras: "8 modelos"
+    },
+
+    {
+        nombre: "KUBI VEHICLE",
+        codigo: "SYSTEM 08",
+        precio: "Q75",
+        imagen: "imagenes/kubi14.jpeg",
+        descripcion: "Diseña vehículos futuristas.",
+        formas: "Vehículos",
+        colores: "Azul y negro",
+        piezas: "60 piezas",
+        figuras: "6 modelos"
+    },
+
+    {
+        nombre: "KUBI CREATURES",
+        codigo: "SYSTEM 09",
+        precio: "Q90",
+        imagen: "imagenes/kubi15.jpeg",
+        descripcion: "Crea criaturas y personajes.",
+        formas: "Orgánicas",
+        colores: "Multicolor",
+        piezas: "65 piezas",
+        figuras: "10 modelos"
+    },
+
+    {
+        nombre: "KUBI CITY",
+        codigo: "SYSTEM 10",
+        precio: "Q140",
+        imagen: "imagenes/kubi16.jpeg",
+        descripcion: "Construye tu propia ciudad futurista.",
+        formas: "Arquitectónicas",
+        colores: "Gris y azul",
+        piezas: "110 piezas",
+        figuras: "15 modelos"
+    },
+
+    {
+        nombre: "KUBI SPACE",
+        codigo: "SYSTEM 11",
+        precio: "Q110",
+        imagen: "imagenes/kubi17.jpeg",
+        descripcion: "Explora el espacio con KUBI.",
+        formas: "Espaciales",
+        colores: "Azul y negro",
+        piezas: "85 piezas",
+        figuras: "12 modelos"
+    },
+
+    {
+        nombre: "KUBI MECH",
+        codigo: "SYSTEM 12",
+        precio: "Q135",
+        imagen: "imagenes/kubi18.jpeg",
+        descripcion: "Construye grandes máquinas.",
+        formas: "Mecánicas",
+        colores: "Gris y azul",
+        piezas: "100 piezas",
+        figuras: "10 modelos"
+    },
+
+    {
+        nombre: "KUBI DRONE",
+        codigo: "SYSTEM 13",
+        precio: "Q65",
+        imagen: "imagenes/kubi19.jpeg",
+        descripcion: "Crea tu propio dron KUBI.",
+        formas: "Tecnológicas",
+        colores: "Negro y azul",
+        piezas: "50 piezas",
+        figuras: "5 modelos"
+    },
+
+    {
+        nombre: "KUBI BUILDER PRO",
+        codigo: "SYSTEM 14",
+        precio: "Q180",
+        imagen: "imagenes/kubi20.jpeg",
+        descripcion: "Para construcciones profesionales.",
+        formas: "Avanzadas",
+        colores: "Multicolor",
+        piezas: "150 piezas",
+        figuras: "25 modelos"
+    },
+
+    {
+        nombre: "KUBI ENERGY",
+        codigo: "SYSTEM 15",
+        precio: "Q70",
+        imagen: "imagenes/kubi21.jpeg",
+        descripcion: "Añade energía y tecnología a tus modelos.",
+        formas: "Tecnológicas",
+        colores: "Cian y azul",
+        piezas: "55 piezas",
+        figuras: "8 modelos"
+    },
+
+    {
+        nombre: "KUBI DEFENSE",
+        codigo: "SYSTEM 16",
+        precio: "Q100",
+        imagen: "imagenes/kubi22.jpeg",
+        descripcion: "Diseña estructuras de defensa.",
+        formas: "Estructurales",
+        colores: "Gris y negro",
+        piezas: "75 piezas",
+        figuras: "9 modelos"
+    },
+
+    {
+        nombre: "KUBI MINI CITY",
+        codigo: "SYSTEM 17",
+        precio: "Q60",
+        imagen: "imagenes/kubi23.jpeg",
+        descripcion: "Una ciudad KUBI en pequeño formato.",
+        formas: "Arquitectónicas",
+        colores: "Multicolor",
+        piezas: "55 piezas",
+        figuras: "8 modelos"
+    },
+
+    {
+        nombre: "KUBI TECH",
+        codigo: "SYSTEM 18",
+        precio: "Q85",
+        imagen: "imagenes/kubi24.jpeg",
+        descripcion: "Tecnología y construcción en un solo sistema.",
+        formas: "Tecnológicas",
+        colores: "Azul y gris",
+        piezas: "65 piezas",
+        figuras: "10 modelos"
+    },
+
+    {
+        nombre: "KUBI TITAN",
+        codigo: "SYSTEM 19",
+        precio: "Q190",
+        imagen: "imagenes/kubi25.jpeg",
+        descripcion: "Construcciones gigantes para grandes ideas.",
+        formas: "Gigantes",
+        colores: "Gris y azul",
+        piezas: "160 piezas",
+        figuras: "20 modelos"
+    },
+
+    {
+        nombre: "KUBI SPEED",
+        codigo: "SYSTEM 20",
+        precio: "Q80",
+        imagen: "imagenes/kubi26.jpeg",
+        descripcion: "Diseña vehículos rápidos y futuristas.",
+        formas: "Vehículos",
+        colores: "Rojo y negro",
+        piezas: "65 piezas",
+        figuras: "7 modelos"
+    },
+
+    {
+        nombre: "KUBI FLY",
+        codigo: "SYSTEM 21",
+        precio: "Q90",
+        imagen: "imagenes/kubi27.jpeg",
+        descripcion: "Construcciones capaces de volar.",
+        formas: "Aeronáuticas",
+        colores: "Azul y blanco",
+        piezas: "70 piezas",
+        figuras: "8 modelos"
+    },
+
+    {
+        nombre: "KUBI MONSTER",
+        codigo: "SYSTEM 22",
+        precio: "Q105",
+        imagen: "imagenes/kubi28.jpeg",
+        descripcion: "Crea monstruos únicos.",
+        formas: "Orgánicas",
+        colores: "Multicolor",
+        piezas: "80 piezas",
+        figuras: "10 modelos"
+    },
+
+    {
+        nombre: "KUBI ARCHITECT",
+        codigo: "SYSTEM 23",
+        precio: "Q150",
+        imagen: "imagenes/kubi29.jpeg",
+        descripcion: "Construcción arquitectónica avanzada.",
+        formas: "Arquitectónicas",
+        colores: "Gris y azul",
+        piezas: "120 piezas",
+        figuras: "15 modelos"
+    },
+
+    {
+        nombre: "KUBI INFINITY",
+        codigo: "SYSTEM 24",
+        precio: "Q200",
+        imagen: "imagenes/kubi30.jpeg",
+        descripcion: "Un sistema para crear sin límites.",
+        formas: "Variadas",
+        colores: "Multicolor",
+        piezas: "180 piezas",
+        figuras: "30 modelos"
+    },
+
+    {
+        nombre: "KUBI ULTIMATE",
+        codigo: "SYSTEM 25",
+        precio: "Q250",
+        imagen: "imagenes/kubi33.jpeg",
+        descripcion: "La colección definitiva de KUBI.",
+        formas: "Todas",
+        colores: "Multicolor",
+        piezas: "220 piezas",
+        figuras: "40 modelos"
+    },
+
+    {
+        nombre: "KUBI FUTURE",
+        codigo: "SYSTEM 26",
+        precio: "Q300",
+        imagen: "imagenes/kubi32.jpeg",
+        descripcion: "La experiencia KUBI más avanzada.",
+        formas: "Futuristas",
+        colores: "Azul, gris y cian",
+        piezas: "250 piezas",
+        figuras: "50 modelos"
+    }
+
+];
+
+
+
+let productoActual = 0;
+
+
+
+function mostrarProducto() {
+
+    const producto = productos[productoActual];
+
+
+    document.getElementById("imagenProducto").src =
+        producto.imagen;
+
+
+    document.getElementById("imagenProducto").alt =
+        producto.nombre;
+
+
+    document.getElementById("codigoProducto").textContent =
+        producto.codigo;
+
+
+    document.getElementById("nombreProducto").textContent =
+        producto.nombre;
+
+
+    document.getElementById("precioProducto").textContent =
+        producto.precio;
+
+
+    document.getElementById("descripcionProducto").textContent =
+        producto.descripcion;
+
+
+    document.querySelector(".numero-producto").textContent =
+        "PRODUCT " +
+        String(productoActual + 1).padStart(2, "0") +
+        " / " +
+        productos.length;
+
+
+    actualizarIndicadores();
+
+}
+
+
+
+function productoSiguiente() {
+
+    productoActual++;
+
+
+    if (productoActual >= productos.length) {
+
+        productoActual = 0;
+
+    }
+
+
+    mostrarProducto();
+
+}
+
+
+
+function productoAnterior() {
+
+    productoActual--;
+
+
+    if (productoActual < 0) {
+
+        productoActual = productos.length - 1;
+
+    }
+
+
+    mostrarProducto();
+
+}
+
+
+
+function crearIndicadores() {
+
+    const contenedor =
+        document.getElementById("indicadores");
+
+
+    contenedor.innerHTML = "";
+
+
+    productos.forEach(function(producto, index) {
+
+        const indicador =
+            document.createElement("span");
+
+
+        indicador.classList.add("indicador");
+
+
+        if (index === 0) {
+
+            indicador.classList.add("activo");
+
+        }
+
+
+        indicador.onclick = function() {
+
+            irAProducto(index);
+
+        };
+
+
+        contenedor.appendChild(indicador);
+
+    });
+
+}
+
+
+
+function actualizarIndicadores() {
+
+    const indicadores =
+        document.querySelectorAll(".indicador");
+
+
+    indicadores.forEach(function(indicador, index) {
+
+        indicador.classList.remove("activo");
+
+
+        if (index === productoActual) {
+
+            indicador.classList.add("activo");
+
+        }
+
+    });
+
+}
+
+
+
+function irAProducto(numero) {
+
+    productoActual = numero;
+
+    mostrarProducto();
+
+}
+
+
+
+function explorarProducto() {
+
+    const producto =
+        productos[productoActual];
+
+
+    document.getElementById("modalNombre").textContent =
+        producto.nombre;
+
+
+    document.getElementById("modalPrecio").textContent =
+        producto.precio;
+
+
+    document.getElementById("modalFormas").textContent =
+        producto.formas;
+
+
+    document.getElementById("modalColores").textContent =
+        producto.colores;
+
+
+    document.getElementById("modalPiezas").textContent =
+        producto.piezas;
+
+
+    document.getElementById("modalFiguras").textContent =
+        producto.figuras;
+
+
+    document.getElementById("explorador").style.display =
+        "flex";
+
+}
+
+
+
+function cerrarExplorador() {
+
+    document.getElementById("explorador").style.display =
+        "none";
+
+}
+
+
+
+window.onclick = function(event) {
+
+    const modal =
+        document.getElementById("explorador");
+
+
+    if (event.target === modal) {
+
+        cerrarExplorador();
+
+    }
+
+};
+
+
+
+crearIndicadores();
+
+mostrarProducto();
+
+
+</script>
+
+
+</body>
+
+</html>
